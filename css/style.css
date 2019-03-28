@@ -1,7 +1,7 @@
 
 body
 {
-	min-height: 600px ; 
+	min-height: 300px ; 
 	background-image: url(../images/back1.svg);
 	padding-bottom: 50px ;
 }
@@ -72,7 +72,53 @@ body
 	}
 }
 
-/*******************************************************/
+/*********************end of start section ******************************/
+
+/****************************start of instruction secction *************/
+
+.game .inst
+{
+	min-height: 300px ; 
+	position: relative ; 
+	padding: 40px 20px  ;
+	padding-bottom: 50px ;
+	display: none ;
+}
+.game .inst h5 
+{
+	font-size: 2rem ;
+	color:#DC5D88 ;
+	letter-spacing: 3px ;
+	margin-bottom: 30px ;
+}
+.game .inst p 
+{
+	color:#8299cd ;
+	text-align: justify ;
+	font-weight: bold ;
+	margin-bottom: 30px ;
+}
+.game .inst img 
+{
+	max-width: 100% ;
+	margin-bottom: 30px ;
+}
+.game .inst .btn 
+{
+	padding:10px 30px ;
+	background-color: #DC5D88 ; 
+	color: #d9e7ff ;
+	outline: none ;
+	font-weight: bold ;
+	transition: all ease-in-out 0.5s ;
+}
+.game .inst .btn:hover
+{
+	background-color: rgba(217,231,255,0.2) ; 
+	color:#DC5D88 ; 
+	border:1px #DC5D88  solid ;
+}
+/****************************end of instruction secction *************/
 
 
 
