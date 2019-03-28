@@ -103,6 +103,7 @@ body
 	max-width: 100% ;
 	margin-bottom: 30px ;
 }
+
 .game .inst .btn 
 {
 	padding:10px 30px ;
@@ -120,18 +121,83 @@ body
 }
 /****************************end of instruction secction *************/
 
+/****************************actual game design ******************************************/
+.game .con-game 
+{
+	min-height: 100px ; 
+	position: relative ; 
+	padding-bottom: 60px ;
+	display: none ;
+	
+	
+}
 
 
+/***************scoring*********/
 
+.game .con-game .scoring
+{
+	margin-bottom: 70px ;
+	padding: 40px 20px  ;
+}
+.game .con-game .scoring .you
+{
+	float:left ; 
+}
+.game .con-game .scoring .robot
+{
+	float: right ;
+}
+.game .con-game .scoring .you span , .game .con-game .scoring .robot span 
+{
+	color:#DC5D88 ;
+	
+}
+.game .con-game .scoring .you .yourscor , .game .con-game .scoring .robot .robotscor
+{
+	font-size: 5rem ;
+	color:#157b4e ;
+}
 
+/************************************hands*********************/
+.game .con-game .con-hands 
+{
+	min-height: 100px ; 
+	
+	
+	
+}
 
+.game .con-game .con-hands .col-xs-3
+{
+	cursor: pointer ;
+	
+}
 
+.game .con-game .con-hands img 
+{
+	max-width: 100% ;
+}
+.game .con-game .con-hands h5 
+{
+	margin-bottom: 30px ; 
+	font-size: 2rem ;
+	color:#DC5D88 ;
+	letter-spacing: 2px ;
+}
 
+/*******************************************************/
+/*****************************con-one-result*****************/
+.game .con-game .con-one-result
+{
+	display: none ;
+}
 
-
-
-
-
+.game .con-game .con-one-result p 
+{
+	font-weight: bold ; 
+	font-size: 3rem ;
+}
 
 
 
