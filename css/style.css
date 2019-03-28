@@ -5,6 +5,10 @@ body
 	background-image: url(../images/back1.svg);
 	padding-bottom: 50px ;
 }
+.clr
+{
+	clear: both ;
+}
 /******************************************************************/
 
 /*****************************game section style ************************/
@@ -193,10 +197,47 @@ body
 	display: none ;
 }
 
+.game .con-game .con-one-result .con-user-image 
+{
+	float: left ; 
+}
+ .game .con-game .con-one-result .con-robot-image
+{
+	float: right ;
+}
+.game .con-game .con-one-result .con-user-image img ,  .game .con-game .con-one-result .con-robot-image img
+{
+	max-width: 100% ;
+}
 .game .con-game .con-one-result p 
 {
+	margin-top: 30px ; 
 	font-weight: bold ; 
 	font-size: 3rem ;
+}
+/**************************************************************************/
+.game .con-game .con-final-result
+{
+	display: none ; 
+}
+.game .con-game .con-final-result h5 
+{
+	color: #DC5D88 ; 
+	font-size: 2.5rem ; 
+	font-weight: bold ;
+}
+.game .con-game .con-final-result p 
+{
+	font-size: 2rem ;
+	font-weight: bold ;
+	
+}
+.game .con-game .con-final-result h6 
+{
+	text-decoration: underline ; 
+	color:#8299cd ; 
+	font-size: 1.3rem ;
+	cursor: pointer ; 
 }
 
 
